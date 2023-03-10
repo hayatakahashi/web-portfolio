@@ -1,0 +1,53 @@
+body { /* Made everything on this page the same font-family */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, "sans-serif";
+  background-color: #F5F5F5;
+}
+
+header { 
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section, article { /*wanted to create some space on the top and bottom*/
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+/* I wanted to center everything on this webpage */
+body, main, section, article, ul, li, footer {
+  text-align: center;
+}
