@@ -1,15 +1,16 @@
-body { /* Made everything on this page the same font-family */
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, Verdana, "sans-serif";
   background-color: #F5F5F5;
 }
 
-header { 
+header {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
+  height: 100px; /* Added height property */
 }
 
 main {
@@ -18,7 +19,7 @@ main {
   padding: 20px;
 }
 
-section, article { /*wanted to create some space on the top and bottom*/
+section, article {
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -47,7 +48,16 @@ footer {
   padding: 5px;
 }
 
-/* I wanted to center everything on this webpage */
 body, main, section, article, ul, li, footer {
   text-align: center;
+}
+
+/* Added LinkedIn link style */
+a[href*="linkedin.com"] {
+  color: #0e76a8;
+  text-decoration: none;
+}
+
+a[href*="linkedin.com"]:hover {
+  text-decoration: underline;
 }
